@@ -1,13 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import FavColor from './useState1';
+import UserList from './useState2';
+import MimicLifecycle from './useEffectLifecycle';
+import PetList from './useEffect2';
+import InputRef from './useRef1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <FavColor></FavColor>
+    <UserList></UserList>
+    <PetList pets={["cat","dog"]}></PetList>
+    <InputRef></InputRef>
   </React.StrictMode>
 );
 
