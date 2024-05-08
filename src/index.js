@@ -8,6 +8,10 @@ import UserList from './useState2';
 import MimicLifecycle from './useEffectLifecycle';
 import PetList from './useEffect2';
 import InputRef from './useRef1';
+import UserList2 from './useMemo1';
+import Sorter from './useMemo2';
+import InputRef2 from './useRef2';
+import TodoList from './useCallback2Outer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +20,10 @@ root.render(
     <UserList></UserList>
     <PetList pets={["cat","dog"]}></PetList>
     <InputRef></InputRef>
+    <UserList2></UserList2>
+    <Sorter data={[{name:'komal',age:23},{name:'hania',age:19}]}></Sorter>
+    <InputRef2></InputRef2>
+    <TodoList></TodoList>
   </React.StrictMode>
 );
 
