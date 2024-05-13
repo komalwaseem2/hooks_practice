@@ -1,7 +1,7 @@
 import { memo } from "react";
 
 const Todos = memo(function Todos ({ todos, addTodo })  {
-  alert("child render");
+  //alert("child render");
   return (
     <>
       <h2>My Todos</h2>

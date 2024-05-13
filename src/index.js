@@ -16,6 +16,7 @@ import Counter from './useReducer1';
 import ToggleButton from './useReducer2';
 import FormName from './useImperativeHandler1';
 import FormAge from './useImperativeHandler2';
+import PetList2 from './classCompPets';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -32,6 +33,7 @@ root.render(
     <ToggleButton></ToggleButton>
     <FormName></FormName>
     <FormAge></FormAge>
+    <PetList2 pets={["cat","dog"]}></PetList2>
   </React.StrictMode>
 );
 
