@@ -12,6 +12,10 @@ import UserList2 from './useMemo1';
 import Sorter from './useMemo2';
 import InputRef2 from './useRef2';
 import TodoList from './useCallback2Outer';
+import Counter from './useReducer1';
+import ToggleButton from './useReducer2';
+import FormName from './useImperativeHandler1';
+import FormAge from './useImperativeHandler2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +28,10 @@ root.render(
     <Sorter data={[{name:'komal',age:23},{name:'hania',age:19}]}></Sorter>
     <InputRef2></InputRef2>
     <TodoList></TodoList>
+    <Counter></Counter>
+    <ToggleButton></ToggleButton>
+    <FormName></FormName>
+    <FormAge></FormAge>
   </React.StrictMode>
 );
 
